@@ -1,25 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import Expenses from "./components/Expenses/Expenses";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  const expenses = [
+    { title: "Car Insurance 1", amount: 100, date: new Date(2022, 8, 2) }, // new Date(year, month, day)
+    { title: "Car Insurance 2", amount: 200, date: new Date(2022, 9, 2) },
+    { title: "Car Insurance 3", amount: 300, date: new Date(2022, 10, 2) },
+    { title: "Car Insurance 4", amount: 400, date: new Date(2022, 11, 2) },
+  ];
+
+  return <Expenses expenses={expenses} />;
 }
 
 export default App;

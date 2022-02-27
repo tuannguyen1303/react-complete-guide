@@ -1,1 +1,8 @@
-27/02/2022
+27/02/2022:
+1) A closer look at JSX
+In JSX, we can write code just like HTML tags but it's not a real HTML tags, it's just help we easily to return what we want to display 
+	in the component.
+In the older versions of React we have to import lib React from 'react' in every single component (we can search some project to watch 
+	how to return a JSX in older way).
+When we return what we want to display in our components, we have to make sure that there is only an element (we can return an array of elements)
+	but we cannot return more than one element that is the reason why we should use a div tag to wrapper what we return.

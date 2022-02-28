@@ -6,3 +6,17 @@ In the older versions of React we have to import lib React from 'react' in every
 	how to return a JSX in older way).
 When we return what we want to display in our components, we have to make sure that there is only an element (we can return an array of elements)
 	but we cannot return more than one element that is the reason why we should use a div tag to wrapper what we return.
+
+28/02/2022:
+1) Organizing component files:
+It's up to you to organize your component (files) with your subfolder to management and maintain easily
+2) Alternative function syntax:
+You can use arrow function syntax in your React component
+3) Listening to Events & Working with Events Handling (important, key concept):
+Let's talk about button in React component, React exposes all default events with "on".
+For instance: <button onClick={function_name()}></button>
+Another thing is when we created a function for event handling in the button above, we should consider what type that we define that function in onClick event:
+For example: 
+	*<button onClick={function_name}></button>, when we define like this, it means when user click the button then event handler then executed
+	*<button onClick={function_name()}></button>, the function that declared in event onClick will be execute immediate for one time before user click the button. 
+There is a convenient way when we create a function name for event: clickHander()

@@ -20,3 +20,7 @@ For example:
 	*<button onClick={function_name}></button>, when we define like this, it means when user click the button then event handler then executed
 	*<button onClick={function_name()}></button>, the function that declared in event onClick will be execute immediate for one time before user click the button. 
 There is a convenient way when we create a function name for event: clickHander()
+
+01/03/2022:
+1) How Components Functions Are Executed: (need to watch again)
+2) Working with "state": (need to watch again)

@@ -24,3 +24,16 @@ There is a convenient way when we create a function name for event: clickHander(
 01/03/2022:
 1) How Components Functions Are Executed: (need to watch again)
 2) Working with "state": (need to watch again)
+
+02/03/2022:
+1) A closer look at "useState" Hook:
+When working data changes in React, you should use "State" concept (a key concept in react library) because when the app started at the first time, components initially rendered for just one time and then it never repeat again and that is the way React works with data
+In order to use "State" we import {useState} from "react" lib in our component and define what object would be changed in the future
+For example: const [title, setTitle] = useState(props);
+In this example above, we defined an array with 2 elements, first is the variable we can interact with (display) and the second is just like a method that we use for change the value (or data) for the first element.
+For example: 
+	const [title, setTitle] = useState(expenseTitle);
+	// title = "Title"
+	setTitle("Hello World");
+	// title = "Hello World"
+When calling setTitle to set a new value then the component will be execute again

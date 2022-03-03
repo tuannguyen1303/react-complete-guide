@@ -37,3 +37,16 @@ For example:
 	setTitle("Hello World");
 	// title = "Hello World"
 When calling setTitle to set a new value then the component will be execute again
+
+03/03/2022:
+1) Adding Form Inputs:
+2) Listening User Inputs:
+- Add listener event for input such as onChange and using event as a parameter which is imported into the function for event handler
+3) Working with multiple "State":
+- I can use multiple State in a component.
+4) Using One State Instead (What's Better):
+5) Updating State That Depends On The Previous State:
+- To answer the question "which is better between using multiple states or just a single state in React component?"
+- React document suggests us should split multiple State in any single component, in order to ensure the data integrity
+6) Handling Form Submission:
+- using e.preventDefault() to prevent submit event (sending request to browser from form).

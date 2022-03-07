@@ -8,9 +8,14 @@ const App = () => {
     { title: "Car Insurance 4", amount: 400, date: new Date(2022, 11, 2) },
   ];
 
+  const addExpenseHandler = (expense) => {
+    console.log("App.js");
+    console.log(expense);
+  }
+
   return (
     <div>
-      <NewExpense />
+      <NewExpense onAddExpense={addExpenseHandler} />
       <Expenses expenses={expenses} />
     </div>
   );

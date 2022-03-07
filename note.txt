@@ -50,3 +50,10 @@ When calling setTitle to set a new value then the component will be execute agai
 - React document suggests us should split multiple State in any single component, in order to ensure the data integrity
 6) Handling Form Submission:
 - using e.preventDefault() to prevent submit event (sending request to browser from form).
+
+07/03/2022:
+1) Adding two way binding:
+- Using "value" attribute (just like HTML) to display the value we set in the input
+2) Child to parent component communicate (bottom-up):
+- Using props to communicate data between children and parent component.
+3) Lifting the State Up: (should watch again)

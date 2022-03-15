@@ -57,3 +57,9 @@ When calling setTitle to set a new value then the component will be execute agai
 2) Child to parent component communicate (bottom-up):
 - Using props to communicate data between children and parent component.
 3) Lifting the State Up: (should watch again)
+
+15/03/2022:
+1) Practice: Adding ExpenseFilter component
+2) Controlled & Uncontrolled Stateless & Stateful Components:
+- Stateful component means there are many state to handle data (create/update/delete)
+- Stateless component means that is a component just display data without any actions

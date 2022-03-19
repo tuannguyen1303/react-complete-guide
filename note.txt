@@ -80,3 +80,6 @@ But noted an important thing that we have to update the previous state when we p
 Practice filter elements in array expenses with array.filter() built-in method.
 4) Output conditional content:
 - We can use operator "? :" into the JSX code that wrapped in curly braces ({}) or just simplify by define a variable outsite JSX area.
+5) Adding conditional return statenments:
+- Checking data that passed from parent component then return another JXP snipped if it satisfies some condition
+6) Practice time: Adding a button on NewExpense component in order to hide/display the form when user clicks the button, handling condition on that button.

@@ -83,3 +83,9 @@ Practice filter elements in array expenses with array.filter() built-in method.
 5) Adding conditional return statenments:
 - Checking data that passed from parent component then return another JXP snipped if it satisfies some condition
 6) Practice time: Adding a button on NewExpense component in order to hide/display the form when user clicks the button, handling condition on that button.
+7) Demo App: Adding chart:
+8) Adding Dynamic Styles:
+- We can use dynamic style by using style attribute in html tag then pass it a JS object
+- For example: <div style={{nameOfProperty: value}}></div>
+9) Wrap up & next step:
+10) Take a quick quiz

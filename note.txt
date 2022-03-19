@@ -63,3 +63,20 @@ When calling setTitle to set a new value then the component will be execute agai
 2) Controlled & Uncontrolled Stateless & Stateful Components:
 - Stateful component means there are many state to handle data (create/update/delete)
 - Stateless component means that is a component just display data without any actions
+
+19/03/2022:
+Module 5: Redering Lists & Condition content:
+1) Rendering Lists of Data:
+- using "{}" in return statement to handle JS code in React component
+- learn about new built-in js function: array.map()
+- when rendering items in an array (or list) into children component, we definde "key" attribute for every time pass the item into child component.
+Because React use "key" to identify which component is deleted or changed when rendering.
+Read more info about "key" attribute: https://vi.reactjs.org/docs/lists-and-keys.html
+2) Using Stateful Lists:
+- In order add a new item into a list then pass it into child component, we use "useState" like we did practice on another component.
+But noted an important thing that we have to update the previous state when we put a new item into the array (or list).
+3) Understanding "Keys":
+- Take a look at the description in the first lesson of the day.
+Practice filter elements in array expenses with array.filter() built-in method.
+4) Output conditional content:
+- We can use operator "? :" into the JSX code that wrapped in curly braces ({}) or just simplify by define a variable outsite JSX area.

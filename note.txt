@@ -88,4 +88,15 @@ Practice filter elements in array expenses with array.filter() built-in method.
 - We can use dynamic style by using style attribute in html tag then pass it a JS object
 - For example: <div style={{nameOfProperty: value}}></div>
 9) Wrap up & next step:
-10) Take a quick quiz
+10) Take a quick quiz:
+
+21/03/2022: 
+Practice with docker:
+- Take a look at how to create and define a Docker files
+- Build a docker image using cli: docker build -t <name-image> .
+- Create a container: docker run --name <name-container> -p <port-want-to-map>:<port-map> -d <name-image>
+- List all containers are running: docker ps
+- List all images: docker images
+- Remove one (or many) container: docker rm <name-container>
+- Stop container that's running: docker stop <name-container> (or container-id)
+- Start/Restart the container: docker start <name-container>

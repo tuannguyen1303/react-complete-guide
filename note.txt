@@ -102,4 +102,13 @@ Practice with docker:
 - Start/Restart the container: docker start <name-container>
 
 28/03/2022:
-Relearn again module 6: Styling React Component
+1) Relearn again module 6: Styling React Component
+2) Settings dynamic styling for React component base on value of input
+3) Setting dynamic CSS classes:
+- New JS feature: Template literal, syntax: `some-string ${some condition or pattern}`
+4) Introducing Styled Component:
+- When defining a css file or classes, it's not just affects to only component that we declare, it will affect to all components in our React app
+- To avoid that problem, there are two ways: 
+	+styled components: https://styled-components.com/
+5) Styled Components & Dynamic Props:
+- Learn how to use styled-components and build elements using this package and checking condition base on props just like React component

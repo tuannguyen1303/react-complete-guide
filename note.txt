@@ -116,3 +116,5 @@ Practice with docker:
 29/03/2022: Docker Crash Course
 1) Volumes:
 2) Docker Compose: how to write a docker compose file and run it
+3) Sharing images via docker hub: register a free account
+- To delete images in docker: docker images rm <image-name>

@@ -112,3 +112,7 @@ Practice with docker:
 	+styled components: https://styled-components.com/
 5) Styled Components & Dynamic Props:
 - Learn how to use styled-components and build elements using this package and checking condition base on props just like React component
+
+29/03/2022: Docker Crash Course
+1) Volumes:
+2) Docker Compose: how to write a docker compose file and run it

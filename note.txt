@@ -123,3 +123,6 @@ Practice with docker:
 1) Styled components & queries: apply media css for web-view on mobile when using styled-components packages.
 2) Use CSS Modules:
 - To limiting scope of CSS for each React component, when define a css for component we just add "module" between the file's name such as Button.module.css
+
+07/04/2022:
+Done the module 7: Debugging React app using Tool in browser and learn more about how to use React Dev Tool (an extension for browser).

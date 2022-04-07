@@ -122,4 +122,4 @@ Practice with docker:
 30/03/2022:
 1) Styled components & queries: apply media css for web-view on mobile when using styled-components packages.
 2) Use CSS Modules:
-- To limiting scope of CSS for each React component, when define a css for component we just add "module" between the file's name such as Button.module.css
+- To limiting scope of CSS for each React component, when define a css for component we just add "module" between the file's name such as Button.module.css..

@@ -127,7 +127,12 @@ Practice with docker:
 07/04/2022:
 Done the module 7: Debugging React app using Tool in browser and learn more about how to use React Dev Tool (an extension for browser).
 
-11/02/2022:
+11/04/2022:
 Module 8: 
 1) Whenever we want to cast a string value to int (number) value just use "+". Ex: if(+name_var < 0)
 2) Defining ListUsers component and handler case there is not any list users from props
+
+13/04/2022:
+Module 8:
+1) Handle data from AddUser component and validation base on condition and display on AddUser component
+2) Create a custom modal for popup error message (using state that's not point out specific type)

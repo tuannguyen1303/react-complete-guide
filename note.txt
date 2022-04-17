@@ -141,3 +141,7 @@ Module 8:
 Module 9: Diving deeper, working with Fragments, Portals and "Refs"
 1) Create a Wrapper component instead of using <div> soup
 2) Using React.Fragment(or Fragment) to exchange Wrapper custom component
+
+17/04/2022:
+Module 9: Working with Portals
+Declare div tags with ids corresponding to holding components that using Portals in React

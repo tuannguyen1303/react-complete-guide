@@ -136,3 +136,8 @@ Module 8:
 Module 8:
 1) Handle data from AddUser component and validation base on condition and display on AddUser component
 2) Create a custom modal for popup error message (using state that's not point out specific type)
+
+14/04/2022:
+Module 9: Diving deeper, working with Fragments, Portals and "Refs"
+1) Create a Wrapper component instead of using <div> soup
+2) Using React.Fragment(or Fragment) to exchange Wrapper custom component

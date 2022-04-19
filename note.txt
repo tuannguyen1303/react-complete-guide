@@ -145,3 +145,8 @@ Module 9: Diving deeper, working with Fragments, Portals and "Refs"
 17/04/2022:
 Module 9: Working with Portals
 Declare div tags with ids corresponding to holding components that using Portals in React
+
+18/04/2022:
+Module 9: Working with Refs:
+-Instead of using State, we can use Ref to get the value changes, the difference of State and Ref is Ref does not re-render the component
+-Differentiation of controlled and uncontrolled components in React

@@ -141,6 +141,9 @@ Module 8:
 Module 9: Diving deeper, working with Fragments, Portals and "Refs"
 1) Create a Wrapper component instead of using <div> soup
 2) Using React.Fragment(or Fragment) to exchange Wrapper custom component
+3) A form component such as input, checkbox, radio or textarea, if we set the value for those components via prop
+It becomes a controlled component by React.
+Otherwise, uncontrolled component just like traditional HTML component and we get the value via "useRef"
 
 17/04/2022:
 Module 9: Working with Portals
@@ -150,3 +153,12 @@ Declare div tags with ids corresponding to holding components that using Portals
 Module 9: Working with Refs:
 -Instead of using State, we can use Ref to get the value changes, the difference of State and Ref is Ref does not re-render the component
 -Differentiation of controlled and uncontrolled components in React
+
+27/04/2022:
+Module 10: Advance handling: Side Effects, Using Reducer & Using the Context API
+1) useEffect Hook (side effect or effect):
+- useEffect's constructor are a function and an array of dependencies. Effect's function would be trigged after
+component render, if any dependency in the array has changed then the component will re-render again and effect's
+function will be run
+- we can return a function which is called cleanup function in useEffect, this function has a responsibility that's
+clean any unnecessary behavior or memory leak 

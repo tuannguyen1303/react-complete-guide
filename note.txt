@@ -161,4 +161,10 @@ Module 10: Advance handling: Side Effects, Using Reducer & Using the Context API
 component render, if any dependency in the array has changed then the component will re-render again and effect's
 function will be run
 - we can return a function which is called cleanup function in useEffect, this function has a responsibility that's
-clean any unnecessary behavior or memory leak 
+clean any unnecessary behavior or memory leak
+
+03/05/2022:
+Module 10: Working with useReducer():
+- This React Hook is used to manage some states that are related to each other. For example, we have 2 states to handle the user's email: one for user's input and one for validation the email's value, we can setup useReducer to manage two-states by returning an object that contains two values: the user's input and value's validator
+- We can reference the syntax in the document from React's homepage: const [someState, stateDispatch] = useReducer(() => {}, {});
+- To avoid Effect's execution, we can check the validations from dependencies in useEffect.

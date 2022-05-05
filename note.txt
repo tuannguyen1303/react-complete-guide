@@ -171,3 +171,6 @@ Module 10: Working with useReducer():
 - React Context (Context API): To avoid passing data to multiple components via props, we can utilize React Context as an intermediate component to sharing data such as user's data after logged in. References syntax on React homepage
 - useContext: a React hook built-in for React Context
 - we can use React Context for dynamic such as a function and a data value
+
+04/05/2022:
+Module 10: Diving into Forwards Refs: review React.forwardRef and useImperativeHandle

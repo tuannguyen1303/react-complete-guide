@@ -174,3 +174,6 @@ Module 10: Working with useReducer():
 
 04/05/2022:
 Module 10: Diving into Forwards Refs: review React.forwardRef and useImperativeHandle
+
+12/06/2022:
+React.memo(function React()): this func tells React if props receive the new values then the component will be re-evaluated
